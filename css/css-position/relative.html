@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css position relative</title>
+    <style>
+      *,
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        text-align: center;
+      }
+
+      div {
+        height: 130px;
+        width: 130px;
+        margin: 0 auto;
+      }
+
+      .satu {
+        background-color: aqua;
+      }
+
+      .dua {
+        background-color: blueviolet;
+        position: relative;
+        left: 30px;
+        /* right: 40px; */
+        /* top: 20px; */
+        bottom: 25px;
+      }
+
+      .tiga {
+        background-color: blue;
+        position: relative;
+      }
+
+      .empat {
+        background-color: burlywood;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>css position relative</h1>
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+    <div class="empat"></div>
+  </body>
+</html>

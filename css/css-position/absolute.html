@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css position absolute</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      h1 {
+        text-align: center;
+      }
+      div {
+        height: 150px;
+        width: 150px;
+        margin: auto;
+      }
+      .satu {
+        background-color: aqua;
+      }
+      .dua {
+        background-color: violet;
+        position: absolute;
+        right: 0;
+        top: 0;
+      }
+      .tiga {
+        background-color: brown;
+      }
+      .container {
+        width: 600px;
+        height: 600px;
+        border: 3px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>css position absolute</h1>
+    <div class="container">
+      <div class="satu"></div>
+      <div class="dua"></div>
+      <div class="tiga"></div>
+    </div>
+  </body>
+</html>
