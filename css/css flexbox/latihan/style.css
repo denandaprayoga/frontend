@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 100vh;
+  background: url("image/bg-header.jpg");
+  background-position: center;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3.5rem;
+}
+
+nav .logo h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+nav .logo h1 span {
+  color: brown;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  /* background-color: blueviolet; */
+}
+ul li a {
+  padding: 20px 30px;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+ul li a:hover {
+  background-color: blue;
+}
