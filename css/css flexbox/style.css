@@ -3,38 +3,15 @@
   width: 800px;
   height: 500px;
   border: 2px solid black;
-  margin: auto;
-  padding: 10px;
-  box-sizing: border-box;
-  /* justify-content: space-between; */
-  /* align-items: stretch; */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  align-content: space-around;
   flex-wrap: wrap;
-  /* align-content: space-around; */
 }
 
 .container div {
-  /* width: 150px; */
-  /* height: 150px; */
-  background-color: blueviolet;
-  margin: 5px;
-  flex: 1;
-}
-
-.container div.satu {
-  align-self: flex-end;
+  width: 150px;
   height: 150px;
-}
-
-.container div.dua {
-  align-self: center;
-  /* height: 150px; */
-}
-
-.container div.tiga {
-  align-self: center;
-  height: 150px;
-}
-
-.container div.empat {
-  align-self: flex-start;
+  background-color: blue;
 }
